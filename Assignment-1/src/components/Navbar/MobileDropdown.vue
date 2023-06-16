@@ -1,6 +1,6 @@
 <script>
 import { ref } from 'vue'
-import MenuIcon from '../Icons/IconMenu.vue'
+import MenuIcon from '../Icons/MenuIcon.vue'
 
 export default {
   name: 'MobileDropdown',
