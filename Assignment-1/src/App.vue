@@ -1,8 +1,10 @@
 <script setup>
-import Navbar from './components/Navbar/Navbar.vue'
-import Header from './components/Header/Header.vue'
-import TeamContainer from './components/Team/TeamContainer.vue'
-import WorkContainer from './components/OurWork/WorkContainer.vue';
+  import Navbar from './components/Navbar/Navbar.vue'
+  import Header from './components/Header/Header.vue'
+  import TeamContainer from './components/Team/TeamContainer.vue'
+  import WorkContainer from './components/OurWork/WorkContainer.vue';
+  import ContactUs from './components/ContactUs/ContactUs.vue';
+
 </script>
 
 <template>
@@ -10,4 +12,5 @@ import WorkContainer from './components/OurWork/WorkContainer.vue';
   <Header />
   <TeamContainer />
   <WorkContainer />
+  <ContactUs />
 </template>

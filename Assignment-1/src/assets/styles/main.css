@@ -5,3 +5,10 @@
   font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
     Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
 }
+
+.flex{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5px;
+}
