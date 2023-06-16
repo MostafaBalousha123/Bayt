@@ -23,7 +23,7 @@ div.team-card {
   margin-top: 30px;
 }
 
-div.team-card img{
+div.team-card img {
   height: 130px;
   width: 130px;
   border-radius: 50%;
@@ -31,9 +31,8 @@ div.team-card img{
   object-fit: cover;
 }
 
-.username{
+.username {
   font-size: 20px;
   font-weight: 600;
 }
-
 </style>

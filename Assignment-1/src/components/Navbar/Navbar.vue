@@ -1,12 +1,12 @@
 <script>
-import MenuList from './MenuList.vue';
+import MenuList from './MenuList.vue'
 import MobileDropdown from './MobileDropdown.vue'
 
 export default {
   components: {
     MobileDropdown,
     MenuList
-}
+  }
 }
 </script>
 
@@ -44,8 +44,8 @@ nav {
 
 @media (min-width: 768px) {
   nav {
-  justify-content: start;
-}
+    justify-content: start;
+  }
   .links {
     display: flex;
     flex-direction: row;
