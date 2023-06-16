@@ -9,7 +9,7 @@ export default {
       { id: 3, label: 'Services', url: '#' },
       { id: 4, label: 'Contact', url: '#' }
     ])
-    
+
     return {
       menuItems
     }
@@ -25,20 +25,18 @@ export default {
   </ul>
 </template>
 
-
-
 <style scoped>
-  ul {
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 15px;
-    padding: 15px;
-  }
-  ul a {
-    text-decoration: none;
-    color: white;
-  }
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  padding: 15px;
+}
+ul a {
+  text-decoration: none;
+  color: white;
+}
 </style>
