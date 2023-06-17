@@ -1,13 +1,13 @@
 <script>
 export default {
-  props: ['label', 'type']
+  props: ['label', 'type', 'name']
 };
 </script>
 
 <template>
     <div class="custom-input">
       <label>{{ label }}</label>
-      <input :type="type" />
+      <input :type="type" :name="name"/>
     </div>
   </template>
   

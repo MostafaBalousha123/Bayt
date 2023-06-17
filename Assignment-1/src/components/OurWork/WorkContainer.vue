@@ -4,7 +4,7 @@ import WorkCard from '../OurWork/WorkCard.vue'
 </script>
 
 <template>
-  <section>
+  <section id="work">
       <div class="our-work-description">
         <h2>Our Work</h2>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.

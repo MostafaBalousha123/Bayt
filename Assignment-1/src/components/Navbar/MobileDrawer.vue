@@ -27,11 +27,9 @@ export default {
     <button class="hamburger" @click="toggleMenu">
       <MenuIcon />
     </button>
-    <transition name="dropdown">
       <div v-if="isOpen" class="dropdown" key="dropdown">
         <slot></slot>
       </div>
-    </transition>
   </div>
 </template>
 
@@ -45,7 +43,7 @@ export default {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 15px;
+  gap: 25px;
   cursor: pointer;
   border: none;
   background-color: inherit;
@@ -53,7 +51,7 @@ export default {
 
 .dropdown {
   position: fixed;
-  top: 45px;
+  top: 55px;
   right: 0;
   bottom: 0;
   width: 300px;
