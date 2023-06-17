@@ -50,7 +50,7 @@ div.work-card div {
 
 @media (min-width: 768px) {
   div.work-card {
-    margin-top: 0;
+    margin-top: 20px;
   }
 }
 </style>

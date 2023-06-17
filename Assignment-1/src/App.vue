@@ -4,6 +4,7 @@
   import TeamContainer from './components/Team/TeamContainer.vue'
   import WorkContainer from './components/OurWork/WorkContainer.vue';
   import ContactUs from './components/ContactUs/ContactUs.vue';
+  import Footer from './components/Footer/Footer.vue';
 
 </script>
 
@@ -13,4 +14,5 @@
   <TeamContainer />
   <WorkContainer />
   <ContactUs />
+  <Footer />
 </template>

@@ -30,6 +30,7 @@ import WorkCard from '../OurWork/WorkCard.vue'
     align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
+    gap: 5px;
   }
   .our-work-description{
     width: 300px;

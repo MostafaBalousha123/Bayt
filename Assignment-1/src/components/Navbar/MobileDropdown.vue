@@ -53,7 +53,7 @@ export default {
 
 .dropdown {
   position: fixed;
-  top: 60px;
+  top: 45px;
   right: 0;
   bottom: 0;
   width: 300px;
