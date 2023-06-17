@@ -11,4 +11,4 @@ const isUniqueCharacters = ( word ) =>{
 } 
 
 console.log(isUniqueCharacters('mostafa'))
-console.log(isUniqueCharacters('most '))
+console.log(isUniqueCharacters('most'))
