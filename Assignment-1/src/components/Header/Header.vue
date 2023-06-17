@@ -1,11 +1,11 @@
 <template>
-  <div class="header">
+  <section id="header">
     <p>Talentera</p>
-  </div>
+  </section>
 </template>
 
 <style scoped>
-.header {
+#header {
   width: 100%;
   height: 550px;
   background-image: url(../../assets/images/header.jpg);

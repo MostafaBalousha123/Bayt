@@ -7,7 +7,7 @@ import GooglePlusIcon from '../Icons/GooglePlusIcon.vue';
 
 </script>
 <template>
-    <footer class="flex-col">
+    <footer id="follow-us" class="flex-col">
       <p>Follow Us</p>
       <div class="flex">
         <FacebookIcon></FacebookIcon>

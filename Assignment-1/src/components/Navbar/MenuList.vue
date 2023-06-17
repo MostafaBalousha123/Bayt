@@ -4,16 +4,17 @@ import { ref } from 'vue'
 export default {
   setup() {
     const menuItems = ref([
-      { id: 1, label: 'Home', url: '#' },
-      { id: 2, label: 'About', url: '#' },
-      { id: 3, label: 'Services', url: '#' },
-      { id: 4, label: 'Contact', url: '#' }
+      { id: 1, label: 'Home', url: '#header' },
+      { id: 2, label: 'Team', url: '#team' },
+      { id: 3, label: 'Work', url: '#work' },
+      { id: 4, label: 'Contact', url: '#contact-us' },
+      { id: 4, label: 'Follow Us', url: '#follow-us' }
     ])
 
     return {
       menuItems
     }
-  }
+    }
 }
 </script>
 

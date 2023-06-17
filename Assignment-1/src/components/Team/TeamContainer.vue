@@ -4,7 +4,7 @@ import TeamCard from '../Team/TeamCard.vue'
 </script>
 
 <template>
-  <section>
+  <section id="team">
     <h2>Our Team</h2>
     <p>Meet The Team - our offices rats:</p>
     <div class="team-container">

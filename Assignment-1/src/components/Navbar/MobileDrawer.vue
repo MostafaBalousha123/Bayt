@@ -3,7 +3,7 @@ import { ref } from 'vue'
 import MenuIcon from '../Icons/MenuIcon.vue'
 
 export default {
-  name: 'MobileDropdown',
+  name: 'MobileDrawer',
   components: {
     MenuIcon
   },
@@ -14,9 +14,15 @@ export default {
       isOpen.value = !isOpen.value
     }
 
+    const closeDrawer = () => {
+      console.log('first')
+      isOpen.value = false
+    }
+
     return {
       isOpen,
-      toggleMenu
+      toggleMenu,
+      closeDrawer
     }
   }
 }
@@ -27,11 +33,9 @@ export default {
     <button class="hamburger" @click="toggleMenu">
       <MenuIcon />
     </button>
-    <transition name="dropdown">
       <div v-if="isOpen" class="dropdown" key="dropdown">
-        <slot></slot>
+        <slot  @link-click="closeDrawer" />
       </div>
-    </transition>
   </div>
 </template>
 
@@ -45,7 +49,7 @@ export default {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 15px;
+  gap: 25px;
   cursor: pointer;
   border: none;
   background-color: inherit;
@@ -53,7 +57,7 @@ export default {
 
 .dropdown {
   position: fixed;
-  top: 45px;
+  top: 55px;
   right: 0;
   bottom: 0;
   width: 300px;

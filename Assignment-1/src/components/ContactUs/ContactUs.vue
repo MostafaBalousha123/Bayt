@@ -3,15 +3,16 @@
   import ContactForm from './Form.vue'
 
 </script>
-<template>
-    <div class="contact-us">
+
+  <template>
+    <section id="contact-us">
       <ContactInfo />
       <ContactForm />
-    </div>
+    </section>
   </template>
   
   <style scoped>
-    div.contact-us{
+    #contact-us{
       display: flex;
       align-items: center;
       justify-content: space-between;
@@ -23,7 +24,7 @@
     }
 
   @media (min-width: 768px) {
-    div.contact-us{
+    #contact-us{
       flex-direction: row;
     }
   }

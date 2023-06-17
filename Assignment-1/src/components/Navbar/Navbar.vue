@@ -1,10 +1,10 @@
 <script>
 import MenuList from './MenuList.vue'
-import MobileDropdown from './MobileDropdown.vue'
+import MobileDrawer from './MobileDrawer.vue'
 
 export default {
   components: {
-    MobileDropdown,
+    MobileDrawer,
     MenuList
   }
 }
@@ -13,13 +13,14 @@ export default {
 <template>
   <div>
     <nav>
-      <div class="logo">Logo</div>
-      <MobileDropdown>
+      <div class="logo">
+        <img src="../../assets/images/logo.png" alt="logo">
+      </div>
+      <MobileDrawer>
         <MenuList />
-      </MobileDropdown>
+      </MobileDrawer>
       <MenuList class="links" />
     </nav>
-    <!-- Your other content here -->
   </div>
 </template>
 
@@ -31,11 +32,15 @@ nav {
   padding: 10px;
   background-color: #0d1721;
   color: white;
-  height: 45px;
+  height: 55px;
+  position:fixed;
+  width: 100%;
+  z-index: 2;
 }
 
-.logo {
-  font-weight: bold;
+.logo img {
+  width: 30px;
+  height: 30px;
 }
 
 .links {
@@ -49,7 +54,7 @@ nav {
   .links {
     display: flex;
     flex-direction: row;
-    gap: 10px;
+    gap: 25px;
   }
 }
 </style>
