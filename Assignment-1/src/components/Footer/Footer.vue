@@ -10,11 +10,11 @@ import GooglePlusIcon from '../Icons/GooglePlusIcon.vue';
     <footer id="follow-us" class="flex-col">
       <p>Follow Us</p>
       <div class="flex">
-        <FacebookIcon></FacebookIcon>
-        <GooglePlusIcon></GooglePlusIcon>
-        <InstagramIcon></InstagramIcon>
-        <TwitterIcon></TwitterIcon>
-        <LinkedinIcon></LinkedinIcon>
+        <FacebookIcon />
+        <GooglePlusIcon />
+        <InstagramIcon />
+        <TwitterIcon />
+        <LinkedinIcon />
       </div>
     </footer>
   </template>
